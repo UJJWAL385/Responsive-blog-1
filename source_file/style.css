@@ -64,3 +64,48 @@ html {
     border-radius: 5px;
     font-size: 30px;
 }
+
+#text {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: left;
+    margin: 70px 30px;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border: 2px solid #222222;
+    margin: 40px;
+}
+
+.card-box-image {
+    display: flex;
+    justify-content: center;
+    background: url('castle.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.card-box-date {
+    margin: 20px 50px;
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 500;
+
+
+}
+
+.card-box-headline {
+    margin: 0 50px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card-box-link {
+    align-self: flex-end;
+    margin-bottom: 60px;
+}
