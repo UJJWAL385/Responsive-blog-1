@@ -82,10 +82,24 @@ html {
     margin: 40px;
 }
 
-.card-box-image {
+.card-box-image-1 {
     display: flex;
     justify-content: center;
     background: url('castle.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.card-box-image-2 {
+    display: flex;
+    justify-content: center;
+    background: url('paint.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.card-box-image-3 {
+    display: flex;
+    justify-content: center;
+    background: url('wall.jpg') no-repeat;
     background-size: 100%;
 }
 
